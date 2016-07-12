@@ -32,7 +32,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
+      <div style={{ paddingTop: 100, paddingBottom: 60,  }}>
         <Header appName="SLAKO" />
         <SetUsername
           username={ this.state.currentUser }
